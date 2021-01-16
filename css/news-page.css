@@ -41,7 +41,17 @@ body {
     color: #999999;
 }
 
+.info-subtitle.active {
+    color: #FF8400;
+}
+
 .widget-info-wrapper {
     background-color: #1A1A1A;
     border: 1px solid #333333;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1720px;
+    }
 }
