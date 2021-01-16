@@ -1,0 +1,10 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000000;
+}
+
+.breaking-news-title {
+    font-size: 48px;
+    line-height: 60px;
+    color: #FF8400;
+}
