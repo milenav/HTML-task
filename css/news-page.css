@@ -8,3 +8,40 @@ body {
     line-height: 60px;
     color: #FF8400;
 }
+
+.view-info-text {
+    font-size: 24px;
+    color: #666666;
+}
+
+.view-info-count {
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.view-icon {
+    height: 36px;
+}
+
+.info-text {
+    font-size: 30px;
+    line-height: 48px;
+    color: #ffffff;
+}
+
+.widget-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.info-subtitle {
+    font-size: 30px;
+    color: #999999;
+}
+
+.widget-info-wrapper {
+    background-color: #1A1A1A;
+    border: 1px solid #333333;
+}
