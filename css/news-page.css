@@ -24,6 +24,12 @@ body {
     height: 36px;
 }
 
+.info-subtitle {
+    font-size: 30px;
+    font-weight: 600;
+    color: #999999;
+}
+
 .info-text {
     font-size: 30px;
     line-height: 48px;
@@ -36,7 +42,7 @@ body {
     color: #ffffff;
 }
 
-.info-subtitle {
+.info-widget-subtitle {
     font-size: 30px;
     color: #999999;
 }
