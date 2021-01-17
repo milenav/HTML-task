@@ -36,6 +36,17 @@ body {
     color: #ffffff;
 }
 
+.img-info-wrapper {
+    position: relative;
+}
+
+.info-icon-wrapper {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 10px;
+    bottom: 10px;
+}
+
 .widget-title {
     font-size: 30px;
     font-weight: 600;
