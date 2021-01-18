@@ -9,6 +9,7 @@ body {
     color: #FF8400;
 }
 
+/* Info Section Style */
 .view-info-text {
     font-size: 24px;
     color: #666666;
@@ -16,7 +17,7 @@ body {
 
 .view-info-count {
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 700;
     color: #ffffff;
 }
 
@@ -26,7 +27,7 @@ body {
 
 .info-subtitle {
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 700;
     color: #999999;
 }
 
@@ -54,14 +55,43 @@ body {
 
 .info-count {
     font-size: 36px;
-    font-weight: 600;
+    font-weight: 700;
     color: #ffffff;
     margin-right: 40px;
 }
 
+.info-league-subtitle {
+    font-size: 30px;
+    font-weight: 700;
+    color: #999999;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.league-icon {
+    height: 70px;
+    margin: 10px;
+}
+
+.img-cropper {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.rounded-image {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+/* Widget Section Style */
 .widget-title {
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 700;
     color: #ffffff;
 }
 
@@ -82,5 +112,11 @@ body {
 @media (min-width: 1200px) {
     .container {
         max-width: 1720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .league-info-wrapper {
+        display: flex;
     }
 }
