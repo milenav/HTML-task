@@ -4,13 +4,31 @@ body {
     position: relative;
 }
 
+.navbar {
+    padding: 30px 0;
+    background-color: #000000 !important;
+}
+
+.nav-item {
+    padding-left: 80px;
+}
+
+.nav-link {
+    color: #999999;
+    font-size: 36px;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link {
+    color: #FF8400;
+}
+
 .swiper-container {
     width: 100%;
     height: 100%;
     margin-top: 100px;
-  }
+}
 
-  .swiper-slide {
+.swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #000000;
@@ -26,34 +44,50 @@ body {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-  }
+}
 
-  .swiper-wrapper {
+.swiper-wrapper {
     color: #999999;
-  }
+}
 
-  .swiper-slide-active {
+.swiper-slide-active {
     border-top: 10px solid #FF8400;
     color: #ffffff;
-  }
+}
 
-  .slide-text-wrapper {
-      margin-top: 45px;
-  }
+.slide-text-wrapper {
+    margin-top: 45px;
+}
 
-  .slide-info {
-      font-size: 24px;
-      color: #666666;
-      text-align: left;
-  }
+.slide-info {
+    font-size: 24px;
+    color: #666666;
+    text-align: left;
+}
 
-  .slide-title {
-      font-size: 30px;
-      text-align: left;
-  }
+.slide-title {
+    font-size: 30px;
+    text-align: left;
+}
+
+.info-widget-subtitle {
+    font-size: 30px;
+    color: #999999;
+}
+
+.info-widget-subtitle:hover {
+    font-size: 30px;
+    color: #999999;
+    text-decoration: none;
+}
+
+.footer-info-wrapper {
+    padding: 50px 0;
+    margin-top: 110px;
+}
 
 @media (min-width: 1200px) {
     .container {
-        max-width: 1720px;
+        max-width: 1760px;
     }
 }
